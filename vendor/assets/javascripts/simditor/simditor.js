@@ -4728,6 +4728,7 @@ ImagePopover = (function(superClass) {
           _this.input.remove();
         }
         return _this.input = $('<input/>', {
+          name="file",
           type: 'file',
           title: _this._t('uploadImage'),
           multiple: true,
